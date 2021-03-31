@@ -32,6 +32,10 @@ project {
     vcsRoot(DotnetProject)
 
     buildType(RunDotnetTests)
+
+    params {
+        param("a", "a")
+    }
 }
 
 object RunDotnetTests : BuildType({
