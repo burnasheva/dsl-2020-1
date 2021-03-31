@@ -35,7 +35,7 @@ project {
 }
 
 object RunDotnetTests : BuildType({
-    name = "run dotnet tests"
+    name = "run dotnet tests (хай!)"
 
     vcs {
         root(DotnetProject)
